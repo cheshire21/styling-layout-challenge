@@ -2,7 +2,11 @@
   grid-column: 1/2;
   background: #343951;
   border: 1px solid black; 
-  padding-top: 36px;
-  padding-bottom: 27px;
 }
 
+.navBar{
+  margin-top: 108px;
+  padding-left: 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #464C61;
+}
