@@ -1,12 +1,73 @@
 .div1{
+  display: flex;
+  flex-flow: column wrap;
   grid-column: 1/2;
   background: #343951;
   border: 1px solid black; 
+  font-size: 10px;
 }
 
 .navBar{
-  margin-top: 108px;
+  margin-top: 50px; 
   padding-left: 0;
   padding-bottom: 16px;
   border-bottom: 1px solid #464C61;
+}
+
+.list{
+  margin-top: 17px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.dialog {
+  margin-top: 163px;
+  margin-left:28px;
+  margin-right:28px;
+  width: 116px;
+  height: 111px;
+  left: 28px;
+  top: 580px;
+  
+  background: #464C61;
+  border-radius: 9px;
+}
+
+.button {
+  color: white;
+  border: 0;
+}
+
+.button_parent{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background: #FF9F00;
+  width: 116px;
+  height: 30px;
+  left: 27px;
+  top: 711px;
+  
+  margin: 20px 27px;
+  border-radius: 7px;
+}
+
+.button_child{
+  background: #FFB233;
+  width: 21px;
+  height: 21px;
+  left: 118px;
+  top: 715px;
+  border-radius: 4px;
+}
+
+.button_link{
+  margin-left: 20px;
+  margin-right: 18px;
+  color: white;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: none;
+
 }
