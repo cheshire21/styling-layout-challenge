@@ -1,0 +1,8 @@
+.div1{
+  grid-column: 1/2;
+  background: #343951;
+  border: 1px solid black; 
+  padding-top: 36px;
+  padding-bottom: 27px;
+}
+
