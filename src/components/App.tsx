@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "./Container";
+import Container from "./Main";
 import SideBar from "./SideBar";
 import Menu from "./Menu";
 import "../styles/App.css";
