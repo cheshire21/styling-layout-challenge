@@ -1,97 +1,96 @@
-
-
-.recent-list-item {
+.list-item {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    width: 159px;
-    height: 133px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(58, 58, 58, 0.07);
     border-radius: 12px;
     margin-right: 14px;
 }
 
-.recent-list-icons {
+.recent-list-item {
+    width: 159px;
+    height: 133px;
+}
+
+.share-list-item {
+    width: 157px;
+    height: 79px;
+}
+
+.list-icons {
     display: flex;
     flex-direction: row ;
-    margin-top: 20px;
     margin-left: 10px;
+}
+
+.recent-list-icons {
+    margin-top: 20px;
     align-items: flex-end;
+}
+
+.share-list-icons {
+    margin-top: 13px;
+    align-items: center;
+}
+
+.list-item_title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #343951;
 }
 
 .recent-list-item_title {
     margin-top: 30px;
     margin-left:  14px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    color: #343951;
 }
 
-.recent-list-item_date{
-    margin-top: 10px;
+
+.share-list-item_title {
+    margin-top: 6px;
+    margin-left:  11px;
+    margin-bottom: 0;
+}
+
+
+
+.list-item_date{
     font-weight: 400;
     font-size: 8px;
     line-height: 9px;
     letter-spacing: 0.05em;
+    color: #858A9D;
+}
+
+.recent-list-item_date{
+    margin-top: 10px;
     margin:0 14px;
-    color: #858A9D;    
 
 }
+
+.share-list-item_date{
+    margin-top: 2px;
+    margin-left:  11px;
+}
+
 
 .recent-list-circle {
     margin-left: 20px
 }
 
-
-
-.share-list-item {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    width: 159px;
-    height: 133px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(58, 58, 58, 0.07);
-    border-radius: 12px;
-    margin-right: 14px;
-}
-
-.share-list-icons {
-    display: flex;
-    flex-direction: row ;
-    margin-top: 20px;
-    margin-left: 10px;
-    align-items: flex-end;
-}
-
-.share-list-item_title {
-    margin-top: 30px;
-    margin-left:  14px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    color: #343951;
-}
-
-.share-list-item_date{
-    margin-top: 10px;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 9px;
-    letter-spacing: 0.05em;
-    margin:0 14px;
-    color: #858A9D;    
-
-}
-
-.share-list-circle {
-    margin-left: 20px
-}
-
-
-.item-rect {
+.recent-item-rect {
     width: 36px;
     height: 31px;
+}
+
+
+.share-list-circle {
+    margin-left: 50px
+}
+
+
+.share-item-rect {
+    width: 30px;
+    height: 26px;
 }

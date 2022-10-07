@@ -17,22 +17,21 @@ function ListItem({titleProject, date, share}: IProps) {
   
   const type = share ? "share" : "recent";
 
-
   return (
-    <div className={type + "-list-item"}>
+    <div className={"list-item " + type +"-list-item"}>
       <div>
-        <div className={type + "-list-icons"}>
-          <div  className="item-rect">
+        <div className={"list-icons "+ type + "-list-icons"}>
+          <div  className={type + "-item-rect"}>
             <Rectangle name={ share? "rect3" : "rect2"} />
           </div>
-          <div className={type + "-list-circle"}>
+          <div className={"list-circle " + type + "-list-circle"}>
             <Icon image={Img1} name="circle-icon circle-icon-1" />
             <Icon image={Img1} name="circle-icon circle-icon-2" />
             <Icon image={Img1} name="circle-icon circle-icon-3" />
           </div>
         </div>
-        <p className={type + "-list-item_title"}>{titleProject}</p>
-        <p className={type + "-list-item_date"}> Created: {date}</p>
+        <p className={"list-item_title " + type + "-list-item_title"}>{titleProject}</p>
+        <p className={"list-item_date " + type + "-list-item_date"}> Created: {date}</p>
       </div>
       { !share && 
           <Icon image={Menu} name='menu-icon '/>
