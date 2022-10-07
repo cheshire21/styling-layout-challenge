@@ -6,3 +6,49 @@
     height: 9px;
     width: 9px;    
 }
+
+.input-icon {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    box-sizing:border-box;
+    top:50%;
+    left:12px;
+    transform: translateY(-55%);  
+}
+
+.title-icon {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu-icon {
+    height: 15px;
+    width: 15px;  
+    margin-top: 12px;
+    margin-right: 9px;
+}
+
+.circle-icon {
+    width: 12px;
+    height: 12px;
+    background: #FFFFFF;
+    border: 1px solid #BEC0C8;
+    border-radius: 12px;
+}
+
+.circle-icon-1 {
+    margin: 0;
+}
+
+.circle-icon-2 {
+    margin-left: -4px;
+}
+
+.circle-icon-3 {
+    margin-left: -4px;
+
+}
+

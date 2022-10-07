@@ -1,4 +1,59 @@
 .div2{
+  display: flex;
+  flex-flow: column wrap;
   grid-column: 2/3;
   background: #F5F6FC;
+  margin: 0 ;
+  padding: 25px 17px;
+}
+
+.search_input {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px ;
+}
+
+.search {
+  padding-left:34px;
+  font-size: 10px;
+  width: 93%;
+  height: 29px;
+  left: 210px;
+  top: 25px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 0;
+}
+.div-list {
+  display: flex;
+  flex-flow: row;
+  margin-top: 23px ;
+  margin-bottom: 38px ;
+  
+}
+
+.table-files {
+  border: 1px solid black;
+  text-align: left;
+  
+}
+
+.table-files th {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #858A9D;
+}
+
+.table-files th:nth-child(0)  {
+  width: 60%;
+  background-color: black;
+}
+
+.table-files th:nth-child(1)  {
+  width: 10%;
+}
+
+.table-files th:nth-child(2)  {
+  width: 30%;
 }
