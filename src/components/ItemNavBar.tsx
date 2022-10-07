@@ -7,7 +7,7 @@ interface IProps {
     name:string
     active?:boolean
     type: string
-    image:any
+    image:string
 
 }
 

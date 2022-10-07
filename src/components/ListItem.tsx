@@ -8,28 +8,35 @@ import Img1 from '../images/img1.png'
 interface IProps {
   titleProject: string
   date: string
+  share?:boolean
 }
 
 
-function ListItem({titleProject, date}: IProps) {
+
+function ListItem({titleProject, date, share}: IProps) {
+  
+  const type = share ? "share" : "recent";
+
+
   return (
-    <div className="list-item">
+    <div className={type + "-list-item"}>
       <div>
-        <div className="list-icons">
+        <div className={type + "-list-icons"}>
           <div  className="item-rect">
-            <Rectangle name="rect3" />
-            <Rectangle name="rect2" />
+            <Rectangle name={ share? "rect3" : "rect2"} />
           </div>
-          <div className="list-circle">
+          <div className={type + "-list-circle"}>
             <Icon image={Img1} name="circle-icon circle-icon-1" />
             <Icon image={Img1} name="circle-icon circle-icon-2" />
             <Icon image={Img1} name="circle-icon circle-icon-3" />
           </div>
         </div>
-        <p className="list-item_title">{titleProject}</p>
-        <p className="list-item_date"> Created: {date}</p>
+        <p className={type + "-list-item_title"}>{titleProject}</p>
+        <p className={type + "-list-item_date"}> Created: {date}</p>
       </div>
-      <Icon image={Menu} name='menu-icon '/>
+      { !share && 
+          <Icon image={Menu} name='menu-icon '/>
+      }
     </div>
   );
 } 
