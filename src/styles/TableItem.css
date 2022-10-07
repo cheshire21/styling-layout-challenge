@@ -1,0 +1,44 @@
+td  { 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #858A9D;
+
+    background: #FFFFFF;
+    padding: 11px 13px;
+    margin-bottom: 16px;
+}
+
+
+tr td:first-child { 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+ }
+tr td:last-child { 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+.name-cell {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.date-cell{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-cell-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #343951;
+    margin-left: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
