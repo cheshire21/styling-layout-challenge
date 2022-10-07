@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Icon.css";
 interface IProps {
     name:string
-    image:any
+    image:string
 
 }
 
