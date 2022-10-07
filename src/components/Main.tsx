@@ -39,7 +39,7 @@ function Main() {
 
       <Title text="Share with me"/>
 
-      <div className="div-list">
+      <div className="div-list2">
         <ListItem titleProject="App Project" date="20.02.2020"  share/>
         <ListItem titleProject="Project fitbit" date="28.02.2020" share/>
         <ListItem titleProject="Client Documents" date="4.03.2020" share/>

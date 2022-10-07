@@ -31,6 +31,12 @@
   margin-bottom: 38px ;
   
 }
+.div-list2 {
+  display: flex;
+  flex-flow: row;
+  margin-top: 23px ;
+  
+}
 
 .table-files {
   text-align: left;
