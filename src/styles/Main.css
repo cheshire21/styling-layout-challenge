@@ -33,9 +33,10 @@
 }
 
 .table-files {
-  border: 1px solid black;
   text-align: left;
-  
+  border-collapse: separate;
+  border-spacing: 0 16px;
+  margin-bottom: 22px;
 }
 
 .table-files th {
@@ -45,15 +46,6 @@
   color: #858A9D;
 }
 
-.table-files th:nth-child(0)  {
-  width: 60%;
-  background-color: black;
-}
-
-.table-files th:nth-child(1)  {
-  width: 10%;
-}
-
-.table-files th:nth-child(2)  {
-  width: 30%;
+.table-files tr {
+  padding-bottom: 16px;
 }
