@@ -41,10 +41,10 @@ function SideBar() {
         </div>
 
         <div className="list-document">
-          <ItemDocument name="Documents" amount={200} files={720}/>
-          <ItemDocument name="Documents" amount={125} files={720}/>
-          <ItemDocument name="Documents" amount={75} files={720}/>
-          <ItemDocument name="Documents" amount={50} files={720}/>
+          <ItemDocument name="Documents" amount={200} files={720}  />
+          <ItemDocument name="Documents" amount={125} files={720} color="#689FF8" />
+          <ItemDocument name="Documents" amount={75} files={720} color="#4AC29D" />
+          <ItemDocument name="Documents" amount={50} files={720} color="#BCBECA" />
         </div>
       </div>
 

@@ -39,16 +39,32 @@
     border-radius: 12px;
 }
 
-.circle-icon-1 {
+.recent-circle-icon-1 {
     margin: 0;
 }
 
-.circle-icon-2 {
+.recent-circle-icon-2 {
     margin-left: -4px;
 }
 
-.circle-icon-3 {
+.recent-circle-icon-3 {
     margin-left: -4px;
+
+}
+
+.share-circle-icon-1 {
+    margin: 0;
+    border: 1px solid #4AC29D;
+}
+
+.share-circle-icon-2 {
+    margin-left: -4px;
+    border: 1px solid #FF6860;
+}
+
+.share-circle-icon-3 {
+    margin-left: -4px;
+    border: 1px solid #FF9F00;
 
 }
 

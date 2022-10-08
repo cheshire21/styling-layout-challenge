@@ -8,15 +8,16 @@ interface IProps{
   member:number
   name:string
   date:string
+  color?:string
 }
 
-function TableItem({member, name, date}:IProps) {
+function TableItem({member, name, date, color}:IProps) {
   return (
       
         <tr>
           <td>
             <div className="name-cell">
-              <Rectangle name="rect4" />
+              <Rectangle name="rect4" color={color} />
               <p className="name-cell-text">{name}</p>
             </div>
           </td>

@@ -32,8 +32,8 @@ function Main() {
           
         </tr>
           <TableItem name="Travel Landing Page" member={5} date="Mar 8, 2020" />
-          <TableItem name="True Photos" member={12} date="Mar 8, 2020" />
-          <TableItem name="Dashboard Structure" member={10} date="Mar 9, 2020" />
+          <TableItem name="True Photos" member={12} date="Mar 8, 2020" color="#4AC29D"/>
+          <TableItem name="Dashboard Structure" member={10} date="Mar 9, 2020" color="#FF6860"/>
           <TableItem name="Character Illustration" member={3} date="Mar 10, 2020" />
       </table>
 

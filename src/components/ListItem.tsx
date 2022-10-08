@@ -25,9 +25,9 @@ function ListItem({titleProject, date, share}: IProps) {
             <Rectangle name={ share? "rect3" : "rect2"} />
           </div>
           <div className={"list-circle " + type + "-list-circle"}>
-            <Icon image={Img1} name="circle-icon circle-icon-1" />
-            <Icon image={Img1} name="circle-icon circle-icon-2" />
-            <Icon image={Img1} name="circle-icon circle-icon-3" />
+            <Icon image={Img1} name={"circle-icon " + type + "-circle-icon-1"} />
+            <Icon image={Img1} name={"circle-icon " + type + "-circle-icon-2"} />
+            <Icon image={Img1} name={"circle-icon " + type + "-circle-icon-3"} />
           </div>
         </div>
         <p className={"list-item_title " + type + "-list-item_title"}>{titleProject}</p>
