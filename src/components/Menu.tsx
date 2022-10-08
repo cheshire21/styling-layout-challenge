@@ -5,6 +5,7 @@ import ItemNavBar from "./ItemNavBar";
 import Rectangle from "./Rectangle";
 import Img1 from '../images/img1.png'
 import Plus from '../images/plus.png'
+import Button from "./Button";
 
 function Menu() {
   return (
@@ -37,13 +38,7 @@ function Menu() {
           </ul>
         </div>
 
-        <div className="button button_parent">
-          
-          <a href="#" className="button_link"> Create New</a>
-          <button className="button button_child">
-            <Icon image={Plus} name="btn-icon"/>
-          </button>
-        </div>
+        <Button text="Create a New" subButton/>  
       </div>
 
     </div>
