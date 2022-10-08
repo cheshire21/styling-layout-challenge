@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/TableItem.css";
 import Icon from "./Icon";
 import Rectangle from "./Rectangle";
-import Menu from '../images/menu.png'
+import Menu from '../images/menu-h.png'
 
 interface IProps{
   member:number
