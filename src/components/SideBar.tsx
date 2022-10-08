@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/SideBar.css";
 import Icon from "./Icon";
 import Img1 from '../images/magnifier.png'
-import Title from "./Title";
+
 import ItemDocument from "./ItemDocument";
 import Rectangle from "./Rectangle";
 import Button from "./Button";
