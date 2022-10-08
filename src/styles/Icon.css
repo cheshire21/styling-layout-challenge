@@ -52,6 +52,14 @@
 
 }
 
+.circle-icon-login {
+    width: 31px;
+    height: 31px;
+    background: #C4C4C4;
+    border: 1px solid #BEC0C8;
+    border-radius: 50px;
+}
+
 .table-icon {
     width: 10px;
     height: 10px;

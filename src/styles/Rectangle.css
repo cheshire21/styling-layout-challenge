@@ -31,3 +31,19 @@
     border-radius: 5px;
     
 }
+
+.rect5 {
+    width: 28px;
+    height: 28px;
+    background: #FF9F00;
+    border-radius: 8px;
+}
+
+.rect6 {
+    
+    width: 119px;
+    height: 73px;
+    margin: 17px 37px;
+    background: linear-gradient(270.15deg, #689FF8 0.15%, #FF6860 54.7%, #FF9F00 99.9%);
+    border-radius: 11px;
+}

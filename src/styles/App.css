@@ -1,7 +1,8 @@
 .App {
   margin: 0;
   display: grid;
-  grid-template-columns: 16.5% 54.5% 25%;
+  grid-template-columns: 17% 54% 25%;
+  /* grid-template-columns: 172px 562px 252px; */
   grid-gap: 2%;
   height: 100vh;
   font-family: 'Roboto' !important;
