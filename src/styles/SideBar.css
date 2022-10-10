@@ -78,8 +78,9 @@
 
 .graphic {
   position: relative;
-  width: auto;
-  height: auto;
+  width: 155px;
+  height: 155px;
+  margin: 0 22%
   
 }
 
@@ -95,7 +96,7 @@
   height: 115px;
   background: white;
   position: absolute;
-  top: 15%;
+  top: 16%;
   left: 12%;
   border-radius: 50%;
   pointer-events: none;
