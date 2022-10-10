@@ -2,10 +2,37 @@ import React from "react";
 import "../styles/SideBar.css";
 import Icon from "./Icon";
 import Img1 from '../images/magnifier.png'
-
 import ItemDocument from "./ItemDocument";
 import Rectangle from "./Rectangle";
 import Button from "./Button";
+import { Doughnut } from 'react-chartjs-2';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+
+ChartJS.register(ArcElement, Tooltip, Legend);
+
+export const data = {
+  datasets: [
+    {
+      data: [0.12, 0.40,0.20, 0.28],
+      backgroundColor: [
+        '#4AC29D',
+        '#FF9F00',
+        '#C4C4C4',
+        '#689FF8',
+      ],
+      borderColor: [
+        '#C4C4C4',
+        '#C4C4C4',
+        '#C4C4C4',
+        '#C4C4C4',
+      ],
+      borderWidth: 0.5,
+      spacing:5,
+      borderRadius:5,
+      cutout:'90%'
+    },
+  ],
+};
 
 function SideBar() {
   return (
@@ -29,8 +56,15 @@ function SideBar() {
 
           <div className="graphic">
             
+          <Doughnut 
+            data={data}  
+            options={{
+              responsive: true,
+              maintainAspectRatio: true,
+
+            }}/>
+
             <div className="cutout2">
-              
               <h1 className="storage-percent">85%</h1>
               <p className="storage-used">Used</p>
             </div>

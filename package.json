@@ -10,7 +10,9 @@
     "@types/node": "^18.8.2",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "chart.js": "^3.9.1",
     "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.8.4",
@@ -46,6 +48,7 @@
   "author": "cheshire21 <coren114@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react-chartjs-2": "^2.5.7",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.24.0",
